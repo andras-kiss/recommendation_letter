@@ -23,8 +23,10 @@
 
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 \usepackage[utf8]{inputenc} % Required for inputting international characters
-\usepackage{gfsdidot} % Use the GFS Didot font: http://www.tug.dk/FontCatalogue/gfsdidot/
-\usepackage{microtype} % Improves typography
+\usepackage{ae,aecompl}
+%\usepackage[hungarian]{babel}
+%\usepackage{gfsdidot} % Use the GFS Didot font: http://www.tug.dk/FontCatalogue/gfsdidot/
+%\usepackage{microtype} % Improves typography
 
 \pagestyle{empty} % Suppress headers and footers
 
@@ -42,7 +44,7 @@
 \usepackage{geometry} % Required for adjusting page dimensions
 
 \geometry{
-	top=1cm, % Top margin
+	top=0.5cm, % Top margin
 	bottom=1.5cm, % Bottom margin
 	left=3cm, % Left margin
 	right=3cm, % Right margin
@@ -90,7 +92,7 @@
 	~\\[-0.01\textheight] % Reduce the whitespace above the horizontal rule
 	\hspace{0.2\textwidth}\vhrulefill{1pt} \\ % Horizontal rule, adjust hspace if your logo is wide and \vhrulefill for the thickness of the rule
 	\authordetailsblock % Include the letter author's details on the right side of the page under the horizontal rule
-	\hspace{-0.25\textwidth} % Horizontal position of the author details block, increase to move left, decrease to move right
+	\hspace{-0.18\textwidth} % Horizontal position of the author details block, increase to move left, decrease to move right
 	\vspace{-0.1\textheight} % Move the date and letter content up for a more compact look
 }
 
